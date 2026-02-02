@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="p:domain_verify" content="b665fec8f44b874aa3b27aa59aa9e76f"/>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f2f3f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 900px;
+      max-width: 95%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .content h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .rating {
+      color: #ff9900;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .content p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background: #ff9900;
+      color: #fff;
+      text-align: center;
+      padding: 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background: #e68a00;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="image">
+    <img src="https://m.media-amazon.com/images/I/71HqUjs3LgL._AC_SL1500_.jpg" alt="Product">
+  </div>
+
+  <div class="content">
+    <h1>Peryiter 1000+ Piece Pink Flower Pipe Cleaner Craft Kit</h1>
+    <div class="rating">★★★★★ Trusted on Amazon</div>
+    <a href="https://amzn.to/4rcs6st" class="btn">View on Amazon</a>
+
+    <p>
+Unleash your creativity with this comprehensive 1402-piece DIY Tulip Bouquet Kit. Designed for both beginners and seasoned crafters, this set provides everything you need to transform simple wire and fiber into stunning, handmade floral arrangements or imaginative 3D art.
+    </p>
+
+    <!-- <a href="https://amzn.to/4adqes9" class="btn">View on Amazon</a> -->
+  </div>
+</div>
+
+</body>
+</html>
